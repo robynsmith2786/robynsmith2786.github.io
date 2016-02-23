@@ -149,30 +149,27 @@
     </div>
     <!-- end container-->
     <script>
-        //wait for DOM to load
+        
         $(document).ready(function() {
-                //code for Q1
-                function doQuestion1() {
-                    var arr = [23, 46, 34, 76],
-                        total = 0;
-                    //go through each item in the array
-                    for (var i = 0; i < arr.length; i++) {
-                        //add to the total
-                        total += arr[i];
-                    }
-                    //display the answer on the screen by replacing the html of #answerQuestion1 with total
-                    $("#answerQuestion1").html(total);
-                }
+                
+                function getTriangle(){
+    var str = "";
+   
+    for (var i = 1; i <= 6; i++){
+    
 
-                function doQuestion2() {}
-                //when user clicks this button, call doQuestion1
-                $("#question1").on("click", function() {
-                    doQuestion1();
-                })
-                $("#question2").on("click", function() {
-                    doQuestion2();
-                })
-            }) //end ready
+    for(var j = 1; j <= i; j++){
+            str = str + "#"
+            }
+        str = str + < /br>
+        }
+    $("#q1result").html(str);
+                }
+            
+            $("#q1Button").on("click", function() {
+                    getTriangle();
+            });
+            })
     </script>
 
 
