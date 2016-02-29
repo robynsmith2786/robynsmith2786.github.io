@@ -55,6 +55,7 @@
                             <li><a href="../twitterBootstrap/index.html">Week 3</a></li>
                             <li class="divider"></li>
                             <li><a href="../twitterBootstrap/carousel.html">Carousel</a></li>
+                            <li><a href="../tictactoe/index.html">Tic Tac Toe</a></li>
                         </ul>
 
                     </li>
@@ -84,28 +85,23 @@
                     <div class="col-md-12">
                         <!--put the code in here for display purposes  -->
                         <pre>
-            //this function adds up the values of an array and
-            //displays it to the screen
-            //
-            function doQuestion1() {
-            var arr = [23, 46, 34, 76],
-                total = 0;
+            function getTriangle(){
+    var str = "";
+    // the string goes here
+    for (var i = 1; i <= 6; i++){
+    //write i stars + 
 
-            //for each value in the array
-            for (var i = 0; i < arr.length; i++) {
-                //add to the total
-                total += arr[i];
-
+    for(var j = 1; j <= i; j++){
+            str = str + "#"
             }
-            //write the total to the results div
-            $("#answerQuestion1").html(total);
-
-            }
-
-            //user clicks button
-            $("#question1").on("click", function() {
-              doQuestion1();
-            })
+        str = str + < /br>
+        }
+    $("#q1result").html(str);
+                }
+            
+            $("#q1Button").on("click", function() {
+                    getTriangle();
+            });
                 </pre>
                     </div>
                     <!-- put a button here; the id corresponds to a jQuery click event -->
