@@ -1,4 +1,4 @@
-var page = 'codeAcademy';
+
 $.get("http://robynsmith2786.github.io/partials/nav.html", function(data) {
 
     $(document).ready(function() {
