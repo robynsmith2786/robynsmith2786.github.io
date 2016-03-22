@@ -1,4 +1,4 @@
-$.get("http://robynsmith2786.github.io/partials/nav.html" "http://robynsmith2786.githun.io/partials/footer.html", function(data) {
+$.get("http://robynsmith2786.github.io/partials/nav.html", function(data) {
 
     $(document).ready(function() {
         //check if this document has .container
@@ -6,7 +6,14 @@ $.get("http://robynsmith2786.github.io/partials/nav.html" "http://robynsmith2786
         //if so add nav.html contents to the top
         if (container) {
             container.prepend(data)
-                //container.fadeIn();
+            container.fadeIn();
         }
     });
 });
+
+$.get("http://robynsmith2786.github.io/partials/footer.html",function(foot){
+  $(document).ready(function(){
+    $(".container").append(foot);
+      $(".container").fadeIn();
+  })  
+})
