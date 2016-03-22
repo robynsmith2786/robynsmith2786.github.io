@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://robynsmith2786.github.io/js/getNav.js"></script>
+
+    <style type="text/css">
+        .navbar {
+            margin: 20px;
+        }
+        h1{
+            align-content: center
+        }
+    </style>
+</head>
+
+<body>
+         <h1 Align="center">Take An Order (Bootstrap)</h1>
+<div id="wrapper">
+<div class="container">
+    <div class="jumbotron">
+      <h1>Labrador Retrievers</h1>
+      <p>Pick a puppy, any puppy</p>
+    </div>
+
+    <div class="row">
+      <div class="bs-example col-md-4">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/yellow.jpg" alt="Yellow Lab">
+            </div>
+            <div class="item">
+              <img src="images/chocolate.jpg" alt="Chocolate Lab">
+            </div>
+            <div class="item">
+              <img src="images/black.jpg" alt="Black Lab">
+            </div>
+
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Please Choose Your Puppy</h3>
+        <label class="checkbox-inline">
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" id="optionsRadios1" value="Yellow" checked> Yellow
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" id="optionsRadios2" value="Chocolate"> Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" id="optionsRadios3" value="Black"> Black
+            </label>
+            
+          </div>
+          <h4>Gender</h4>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="extra" value="Add Trim">Male
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="extra" value="Add Clasp">Female
+            </label>
+          </div>
+          
+          <select id="mySelect" class="form-control">
+            <option>Want More Than One??</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+          <div id="mySelectMessage"></div>
+          </label>
+      </div>
+
+      <div class="col-md-4 addpad">
+        <textarea id="myTextArea" class="form-control" rows="5" placeholder="Have Any Additional Requests?"></textarea>
+      </div>
+
+      <div class="col-md-4 addpad">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="exampleInputName2">Name</label>
+            <input type="text" class="form-control" id="mySingleLineText" placeholder="Hound Dog">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail2">Email&nbsp;</label>
+            <input type="email" class="form-control" id="mySingleLineText2" placeholder="dogzruleee@example.com">
+          </div>
+        </form>
+      </div>
+
+
+      <div class="col-md-4 addpad">
+        <button id="myButton" type="button" class="btn btn-primary btn-lg btn btn-success btn-block"><span class="glyphicon glyphicon-home"></span>Add to House</button>
+      </div>
+      <div class="col-md-12" id="log"></div>
+    </div>
+  </div>
+    </div>
+</body>
+
+</html>
