@@ -7,6 +7,7 @@ $.get("http://robynsmith2786.github.io/partials/nav.html", function(data) {
         if (container) {
             container.prepend(data)
             container.fadeIn();
+            $("#codeAcademy").addClass('active');
         }
     });
 });
