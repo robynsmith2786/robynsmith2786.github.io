@@ -1,12 +1,17 @@
 [
     {
-        "breed":"boxer",
-        "image":"http://placehold.it/350x150",
-        "description":"abc124"
+        "breed":"Yellow Lab",
+        "image":<img src=".../images/yellow.jpg">,
+        "description":"playful,cuddly, and chubby"
     },
     {
-        "breed":"test1",
-        "image":"http://placehold.it/350x150",
-        "description":"info"
+        "breed":"Chocolate Lab",
+        "image":<img src=".../images/chocolate.jpg">,
+        "description":"independant, strong build, and sporty"
+    },
+    {
+        "breed":"Black Lab",
+        "image":<img src=".../images/black.jpg">,
+        "description":"lazy, cuddly, and loyal"
     }
 ]

@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $("#getBreeds").on("click", function() {
        
-        var url = "http://robynsmith2786.github.io/otherProjects/ajaxExamples/jsonDatabase/dogs.json";
+        var url = "http://robynsmith2786.github.io/finalProject/jsonDatabase/dogs.json";
 
         $.getJSON(url, function(data) {
             console.log(data);
