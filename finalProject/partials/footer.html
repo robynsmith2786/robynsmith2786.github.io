@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
-    <title>Dog Breeds</title>
+    
+    <title>Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="http://robynsmith2786.github.io/finalProject/js/getNav.js"></script>
-    <script>
-    var page = 'products';    
-</script>
-
-    
-     <script src="js/dogs.js"></script>
 
     <style type="text/css">
         .navbar {
             margin: 20px;
         }
-        h1{
-            align-content: center
-        }
+        html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+.rowMargins {
+  /*margins are to offset the container*/
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #f5f5f5;
+  height: 100%;
+}
+
     </style>
 </head>
-
-<body>
-     <h1>Dog Breeds</h1>
-    <div class="container">
-        <button id="getBreeds" class="btn btn-default btn-lg" type="button">Get Breeds</button><br><br>
-        <div id="breedData">
-            
-        </div>
-        <div class="row">
-        </div>
-    </div>
-</body>
-
+<footer class="row footer">
+ 	<p class="text-muted rowMargins">University of Guelph-Humber</p>
+</footer>
 </html>

@@ -1,0 +1,12 @@
+[
+    {
+        "breed":"boxer",
+        "image":"http://placehold.it/350x150",
+        "description":"abc124"
+    },
+    {
+        "breed":"test1",
+        "image":"http://placehold.it/350x150",
+        "description":"info"
+    }
+]
