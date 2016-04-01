@@ -1,5 +1,5 @@
 
-$.get("http://robynsmith2786.github.io/partials/nav.html", function(data) {
+$.get("http://robynsmith2786.github.io/finalProject/partials/nav.html", function(data) {
 
     $(document).ready(function() {
         //check if this document has .container
