@@ -86,27 +86,10 @@
             </label>
             
           </div>
-          <h4>Gender</h4>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" name="extra" value="Add Trim">Male
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" name="extra" value="Add Clasp">Female
-            </label>
-          </div>
+        
           
-          <select id="mySelect" class="form-control">
-            <option>Want More Than One??</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-          </select>
-          <div id="mySelectMessage"></div>
-          </label>
+          
+          
       </div>
 
       <div class="col-md-4 addpad">
@@ -133,7 +116,20 @@
       <div class="col-md-12" id="log"></div>
     </div>
   </div>
-    </div>
+</div>
+    <script>
+        $(document).ready(function() {
+
+    $("#myButton").on("click", function() {
+       var dogColour = $("input[type='radio'][name='color']:checked").val();
+        
+       var request = $("#myTextArea").val();
+        alert"Congratualtions on you purchase!/nDog Colour: "+dogColour+"\n"+"Additional Requests: "+request);
+
+      }) //click
+
+  }) //read
+    </script>
 </body>
 
 </html>

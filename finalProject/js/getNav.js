@@ -1,5 +1,5 @@
 
-$.get("http://robynsmith2786.github.io/finalProject/partials/nav.html", function(data) {
+$.get("/finalProject/partials/nav.html", function(data) {
 
     $(document).ready(function() {
         //check if this document has .container
@@ -13,7 +13,7 @@ $.get("http://robynsmith2786.github.io/finalProject/partials/nav.html", function
     });
 });
 
-$.get("http://robynsmith2786.github.io/partials/footer.html",function(foot){
+$.get("/partials/footer.html",function(foot){
   $(document).ready(function(){
     $(".container").append(foot);
       $(".container").fadeIn();
