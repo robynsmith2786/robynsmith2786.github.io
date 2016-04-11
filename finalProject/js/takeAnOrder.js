@@ -67,3 +67,15 @@ $(document).ready(function() {
 
 
 });
+
+ $(document).ready(function() {
+
+    $("#myButton").on("click", function() {
+       var dogColour = $("input[type='radio'][name='color']:checked").val();
+        
+       var request = $("#myTextArea").val();
+        alert"Congratualtions on you purchase!/nDog Colour: "+dogColour+"\n"+"Additional Requests: "+request);
+
+      }) //click
+
+  }) //read
